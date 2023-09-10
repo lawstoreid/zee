@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 120))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lawxszaaaa")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/temanvirtualchat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mabarmolehellianzz")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mabarmolehellianz")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/89a8c3ffa95da721bc04f.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/061a4f515cd7cd4e32e75.jpg"
 
 
 def time_to_seconds(time):
